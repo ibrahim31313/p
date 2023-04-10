@@ -297,7 +297,7 @@ body {
 .home {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(var(--secondary-color-700), var(--secondary-color-700)), url("/images/programming-imgg.jpg") ;
+  background: linear-gradient(var(--secondary-color-700), var(--secondary-color-700)), url("/p/images/programming-imgg.jpg") ;
   background-position: center;
   background-size: cover;
   border-bottom-left-radius: var(--primary-boder-radius);
