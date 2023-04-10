@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ibrahim balamy website">
+    
+    <title>Ibrahim Balamy</title>
+    <link rel="shortcut icon" href="images/logo-light.png" type="image/x-icon/png" sizes="16x16" media="(prefers-color-scheme: dark)">
+    <link rel="shortcut icon" href="images/logo-dark.png" type="image/x-icon" sizes="16x16" media="(prefers-color-scheme: light)">
+
+    <!-- css file  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- goole fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Pacifico&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- Start of header  -->
+    <header class="header">
+        <div class="container">
+            <h1 class="centering-by-flex">
+                <a href="/pages/thankyou.html">ibrahim balamy</a>
+            </h1>
+            <nav>
+                <ul class="ul">
+                    <li class="centering-by-flex"><a href="#home">home</a></li>
+                    <li class="centering-by-flex"><a href="#skills">my skills</a></li>
+                    <li class="centering-by-flex"><a href="#projects">my projects</a></li>
+                    <li class="centering-by-flex"><a href="#contact-me">contact me</a></li>
+                </ul>
+            </nav>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars active"></i>
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+    </header>
+    <!-- End of header  -->
+
+    <!-- Start of home section  -->
+    <section class="home" id="home">
+        <div class="container centering-by-flex">
+            <h2>
+                Hi, I'm <span>ibrahim balamy</span>
+            </h2>
+            <p class="p-1">
+                a front-end developer
+            </p>
+            <p class="p-2">
+                welcome to my small world and fill free to contact me
+            </p>
+        </div>
+    </section>
+    <!-- End of home section  -->
+
+    <!-- Start of skills section  -->
+    <section class="skills" id="skills">
+        <div class="container centering-by-flex">
+            <h3>
+                my skills
+            </h3>
+            <div class="skills-cards">
+                <img src="images/html.png" alt="html image">
+                <img src="images/css.png" alt="css image">
+                <img src="images/js.png" alt="javacsript image">
+                <img src="images/github.png" alt="github image">
+            </div>
+        </div>
+    </section>
+    <!-- End of skills section  -->
+
+    <!-- Start of projects section  -->
+    <section class="projects" id="projects">
+        <div class="container centering-by-flex">
+            <h3>
+                my projects
+            </h3>
+            <p class="p-1">
+                Hello in this section i will present my project from beggining of my programming <br> carrer to now so i wish to descover them and like them
+            </p>
+            <div class="projects-cards">
+                <div class="card">
+                    <picture>
+                        <img src="images/img1.png" alt="">
+                    </picture>
+                    <div class="overlay">
+                        <a href="#" class="dark">
+                            view code
+                        </a>
+                        <a href="#" class="light">
+                            live preview
+                        </a>
+                    </div>
+                    <button class="project-btn" data-order="1">
+                        project 1
+                    </button>
+                </div>
+                <div class="card">
+                    <picture>
+                        <img src="images/img2.jpg" alt="">
+                    </picture>
+                    <div class="overlay">
+                        <a href="#" class="dark">
+                            view code
+                        </a>
+                        <a href="#" class="light">
+                            live preview
+                        </a>
+                    </div>
+                    <button class="project-btn" data-order="2">
+                        project 2
+                    </button>
+                </div>
+                <div class="card">
+                    <picture>
+                        <img src="images/img3.png" alt="">
+                    </picture>
+                    <div class="overlay">
+                        <a href="#" class="dark">
+                            view code
+                        </a>
+                        <a href="#" class="light">
+                            live preview
+                        </a>
+                    </div>
+                    <button class="project-btn" data-order="3">
+                        project 3
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of projects section  -->
+
+    <!-- Start of contact-me section  -->
+    <section class="contact-me" id="contact-me">
+        <div class="container centering-by-flex">
+            <h3>
+                contact-me
+            </h3>
+            <p class="p-1">
+                Let’s work together on your next project
+            </p>
+            <div class="content">
+                <div class="social-media-icons">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    
+                </div>
+                <form action="https://formsubmit.co/ibrahimbalamy583@gmail.com" method="post" class="centering-by-flex">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/pages/thankyou.html">
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    <input type="email" name="email" id="" placeholder="Email">
+                    <!-- <input type="text" name="message" id="" placeholder="Message Or Comment" > -->
+                    <textarea name="message" id="" placeholder="Message or Comment"></textarea>
+                    <button type="submit">send message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- End of contact-me section  -->
+
+    <!-- Start of footer  -->
+    <footer class="footer">
+        <div class="container centering-by-flex">
+            <h3>
+                <span class="span-1">ibrahim balamy </span> 
+                <span class="span-2"><div>&nbsp; &copy; &nbsp;</div> 2023 - 2024</span>
+            </h3>
+        </div>
+    </footer>
+    <!-- End of footer  -->
+
+
+    <!-- js file -->
+    <script src="js/main.js"></script>
+</body>
+</html>

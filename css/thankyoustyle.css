@@ -1,0 +1,110 @@
+/* Start of css variables  */
+:root {
+    --primary-color-200: #eeeeee;
+    --primary-color-500: #00adb5;
+    --primary-color-700: #222831;
+
+    --secondary-color-700: #2228319a;
+
+    --primary-ff: "Inter", sans-serif;
+    --secondary-ff: "Pacifico", cursive;
+    
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+
+    --secondary-border-radius: 0.5rem;
+
+    --primary-transition: 0.3s;
+}
+/* End of css variables  */
+/* Start of global rules  */
+body {
+    font-family: var(--primary-ff);
+    font-size: 16px;
+}
+@media (max-width:320px) {
+    body {
+        font-size: 4px;
+    }
+}
+@media (max-width:768px) {
+    body {
+        font-size: 10px;
+    }
+}
+/* End of global rules  */
+/* Start of main  */
+main {
+    height: 90vh;
+    width: 100%;
+    background-image: url("/images/programming-imgg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+main:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 90vh;
+    width: 100%;
+    background-color: var(--secondary-color-700);
+    z-index: 1;
+}
+h1 {
+    font-family: var(--secondary-ff);
+    font-size: 5rem;
+    font-weight: var(--fw-regular);
+    color: var(--primary-color-200);
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    z-index: 5;
+}
+@media (max-width:350px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+}
+main .p-1 {
+    font-size: 1.125rem;
+    font-weight: var(--fw-regular);
+    color: var(--primary-color-200);
+    text-align: center;
+    z-index: 5;
+}
+main .p-1 span {
+    font-weight: var(--fw-medium);
+    color: var(--primary-color-500);
+}
+main .p-bt{
+    margin-bottom: 20px;
+}
+main a {
+    display: block;
+    padding: 10px 20px;
+    background-color: var(--primary-color-500);
+    font-size: 1.25rem;
+    color: var(--primary-color-200);
+    text-transform: capitalize;
+    border-radius: var(--secondary-border-radius);
+    z-index: 5;
+}
+/* End of main  */
+/* Start of footer  */
+.footer {
+    height: 10vh;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: none;
+}
+/* End of footer  */
