@@ -38,7 +38,7 @@ body {
 main {
     height: 90vh;
     width: 100%;
-    background-image: url("/images/programming-imgg.jpg");
+    background-image: url("/p/images/programming-imgg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
